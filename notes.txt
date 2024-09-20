@@ -1,0 +1,251 @@
+/*! diff types of colors named colors  , rgb , rgba , gradients */
+/* combination of 3 colors to make one new ajuba colors 
+r = red  255
+g = green 255
+b = blue  255
+a = 0 to 1  */
+    /* color:pink; */
+    /* color: rgb(0,0,0); */
+/* color: rgba(20,30,50,0);  */
+
+/* font-family le chai hajur ko font ko writing types lai manage garxa like handwriting jsto kasto khalko handwriting vanera  */
+/*font weight le text ko motai lai boldness  ko manage garxa  */
+/* 1rem = 16px */
+/* 1rem = 16px
+1px = 1/16
+30px = 1/16*30 */
+/* font size le chai font wa text ko size lai badaune ghataune kam garxa  */
+/* text-align le text lai align garneyy kam garxa horizonatalyy  left , right ,center*/
+/* use rgb , rgba and others colors because they are more beautiful than named colors  */
+/* lowercase le sabailai small ma garxa upper le sabilai capital ma garxa
+ and capitalize le chai sbai word ko pailo letter lai capital garxa  */
+ /* line height helps to manage space between text and lines  */
+ /* text decoration le chai text ko decoration garxa like underline , overline , line through */
+ /* letter spacing le chai letter haru bich ma space dine kam garxa  */
+/* word spacing le chai words haru ko bich ma space dina lai hoo  */
+
+
+/* 
+padding , margin , border , border radius  
+padding adds space between content and border
+margin add spaces between  element and other elements
+border adds border around element
+border radius adds curve to border
+
+*/
+/* what is specificity ??  
+power & Importance
+jetho vanda ni kanxoo 
+
+
+
+
+
+*/
+
+/* box-shadows=> box elements type ko lagii hola and box kas to hunxa  */
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.para{
+width: 200px;
+text-transform:lowercase;
+letter-spacing: 3px;
+word-spacing: 4px;
+font-family: cursive;
+text-transform: capitalize;
+padding: 10px;
+margin: 10px;
+border: 2px solid red;
+border-radius: 50px;
+}
+
+.para2{
+color: red;
+} 
+ 
+1. Universal slector 
+2. element selector 
+3 class
+4. id
+5. inline styles 
+6. !important   
+#btn{
+    color: blue!important;
+} */
+
+
+
+/* yedii rgb ra rgba use garnu vako xa vanii tele tini haru lai mixed garera new color dinxa but gradients use garda chai tyoc colors haru ko mixed mai dinxa  */
+
+
+/* Cards layouts  */
+/* 
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,500;1,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Urbanist", sans-serif;
+
+}
+
+.cards{
+    width: 250px;
+    height: 350px;
+border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 100px auto;
+    background-color: #111;
+    color: whitesmoke;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.card-image{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background: red;
+    display: block;
+    margin: auto;
+}  */
+
+/* 
+<div class="cards">
+
+<img class="card-image">
+
+<h2 style="text-align: center;">Bibek</h2>
+<p style="text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed distinctio, sint ipsa quia nemo a delectus, aperiam amet minus fuga asperiores qui eum soluta quidem ab ipsum, dicta aut accusantium.</p>
+</div> */
+/* .box{
+    margin: 160px auto;
+    width: 200px;
+    height: 200px;
+   background-image: url("https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg");
+   filter: grayscale();
+   filter: blur(20px); */
+   /* filter: blur(20px) grayscale();
+}
+/* lists properties 
+nav bar  */
+
+/* ol {
+    list-style-type:lower-roman;
+} */ 
+ /* p{
+    column-count: 5;
+    text-align: justify;
+    column-gap: 20px;
+column-rule: 2px solid salmon;
+ } */
+/* 
+
+ ol {
+    list-style-image: url("https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg");
+
+} */
+ 
+ /* button{
+    display: block;
+    margin: 200px auto;
+    padding: 10px;
+ } */
+ /* button:hover{
+    background-color: blue;
+    cursor: pointer;
+ }
+ button:active{
+    background: red;
+ } */
+ /* p{
+    color: red;
+    background: red;
+    display: none;
+    visibility: hidden;
+    height: 200px;
+} */
+
+/* 
+
+.box{
+    width: 600px;
+    height: 1600px;
+    border: 2px solid black;
+    margin: auto; */
+    /* position: relative; */
+   
+/* }
+.box div{
+    width: 10%;
+    height: 10%;
+    border: 2px solid salmon;
+    margin: 20px;
+    position:fixed;
+    top: 400px;
+    top: 0;
+} */
+/* relative chai mainly parent lai container ma dinxam and absolute chai child lai why u might be wonder abt it  */
+/*! Don't share this cheatsheet to others.A quick hack to learn css kinda !!*/
+
+/* <!-- <style>
+
+p{
+    color: blue;
+}
+
+#para{
+    background: red;
+/* color: red; */
+
+
+
+/* p=> selector tag , id and class */
+
+/* three ways of writing css 
+1. inline css normal projects
+2. internal css  intermediate projects 
+3. external css ✅ 1000+x
+
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi iure, reiciendis ad autem dolore molestias laboriosam rem sed provident vel vero et voluptatibus libero aspernatur nam eos quibusdam dicta quaerat!. Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, necessitatibus tempore! Voluptates id excepturi magni quae? Enim assumenda accusantium odit aspernatur atque, quod, totam, blanditiis illum temporibus quas rerum? Dignissimos.</p>
+
+<p id="para" class="para2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat ipsa ut doloribus earum tempora. Consequuntur alias ipsum iusto doloremque quae eum explicabo deleniti corporis. Minus, facilis aut? Sunt, magnam iste!</p> -->
+
+<!-- ctrl + /  -->
+
+
+
+<!-- <p id="para" class="para2">Hello World</p> -->
+
+<!-- <h2 style="color: red;" id="btn">Hello world</h2>  -->
+<!-- 
+<ol>
+
+<h2>Foods</h2>
+<li>Mo:MO</li>
+<li>Chowmin</li>
+<li>Pizza</li>
+<li>Burger</li>
+
+</ol> -->
+
+
+<!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore quo facere atque nam natus iste. Impedit aperiam, cupiditate laboriosam illum incidunt consectetur odio voluptatum iure unde neque! Dolorum, laudantium consequuntur? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium quaerat incidunt temporibus, provident voluptates tempora sed soluta molestiae! Deleniti soluta dignissimos expedita unde tenetur eius rerum quam eum sapiente debitis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Et sapiente minus excepturi cumque laudantium, laborum natus ex suscipit voluptate animi qui amet aspernatur numquam corporis culpa rerum quisquam distinctio fugiat! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis, iure aut fugiat illo sint, fugit est expedita cupiditate alias consequuntur adipisci accusamus veritatis laborum pariatur, molestiae saepe quo quia ex. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum et iusto velit eveniet dicta. Id nobis ducimus reiciendis nihil, quos delectus dolorum sunt, facere necessitatibus distinctio aliquam rerum soluta dolore. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum doloremque aspernatur quia vitae? Facere dolorem debitis repudiandae! Consequatur quis, facere consectetur quod sequi quo totam pariatur eligendi dolorum ad a.</p> -->
+
+<div class="box">
+
+
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+
+
+
+</div>
+ */
+
+
